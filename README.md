@@ -6,3 +6,4 @@ This is a infra sample project.
 
 * [openvpn](https://github.com/kudl/kudl-infra/tree/master/openvpn)
 * [nexus](https://github.com/kudl/kudl-infra/tree/master/nexus)
+* [k3s-traefik-ingress](https://github.com/kudl/kudl-infra/tree/master/k3s-traefik-ingress)
