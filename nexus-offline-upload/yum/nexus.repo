@@ -1,0 +1,13 @@
+[nexusrepo]
+name=Nexus Repository
+baseurl=http://<nexus domain>/repository/<repository host group>
+enabled=1
+gpgcheck=0
+username=<username>
+password=<password>
+priority=1
+
+# /etc/yum.repos.d remove *.repo file
+# /etc/yum/plugin fastmirror disable
+# yum clean all
+# yum repolist enabled
