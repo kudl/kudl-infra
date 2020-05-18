@@ -1,8 +1,7 @@
 ## build.gradle 
 Add task to download jar and pom files and execute task
 
-1.downloadToProjectMavenRepo
-
+1. downloadToProjectMavenRepo
 2. makeOfflineZip
 
 Check the build / distributions / offline.zip folder
