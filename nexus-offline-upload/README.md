@@ -1,10 +1,10 @@
 ## Getting Started
-This is a shell script that uploads *jar, gem, yum* files in an offline environment.
+This is a shell script that uploads `jar, gem, yum` files in an offline environment.
 
-When you see the sh file for each folder, you need to find the values ​​of *<username>, <password>, <nexus domain>, 
-<repository host group>* and change them to the values ​​set in the nexus set in the offline environment.
+When you see the sh file for each folder, you need to find the values ​​of `<username>, <password>, <nexus domain>, 
+<repository host group>` and change them to the values ​​set in the nexus set in the offline environment.
 
-### java
+## java
 The java project online / offline settings are in the gradle-settings folder.
  
 data directory: jar files
@@ -26,14 +26,14 @@ and write in the order of `group_id artifact_id version filename` in maven-repos
 
 * Set and build offline project with reference to gradle-setting> offline> setting.md
 
-### ruby
+## ruby
 * gem file download
 
 * Paste the gem file in the data directory.
 
 * Execute publish.sh
 
-### yum
+## yum
 * yum file download
 
 * Paste the yum file in the data directory.
