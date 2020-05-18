@@ -1,6 +1,6 @@
 ## Getting Started
 
-This is a infra sample project.
+infra project.
 
 ## Table of Contents
 
