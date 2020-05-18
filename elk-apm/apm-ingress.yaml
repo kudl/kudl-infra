@@ -1,0 +1,8 @@
+apiVersion: networking.k8s.io/v1beta1
+king: Ingress
+metadata:
+  name: apm-ingress
+spec:
+  rules:
+    - host: <your elastic apm host>
+---
