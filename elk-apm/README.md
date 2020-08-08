@@ -78,8 +78,10 @@ kill $(ps aux | awk '/elastic-apm/ {print $2}')
 ```
 
 Configuration
+
 edit `apm-server` host and `output.elasticsearch` host
-참고 : [ElasticAPM](https://www.elastic.co/guide/en/apm/server/current/getting-started-apm-server.html) 
+
+reference : [ElasticAPM](https://www.elastic.co/guide/en/apm/server/current/getting-started-apm-server.html) 
 ```shell script
 vi /apm-server.yml
 ```
