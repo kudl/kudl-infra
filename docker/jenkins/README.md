@@ -45,7 +45,7 @@ ssh-copy-id jenkins@jenkins-worker01
 * system > node > add node
     * Remote root directory : /var/jenkins_home
     * Launch method : Launch agents via SSH
-    * Host : jenkins_worker01
+    * Host : jenkins-worker01    (worker container)
     * Credentials
         * Kind : SSH Username with private key
         * UserName : jenkins   (Step 3 ssh-copy-id agent-name)
