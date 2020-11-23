@@ -1,0 +1,12 @@
+# MASTER PRE-REQS
+# Install docker, docker-compose
+version: "3"
+services:
+  jenkins-worker01:
+    container_name: jenkins-worker01
+    image: jenkins/ssh-agent
+    restart: always
+    volumes:
+      - ~/infra/jenkins_worker:/var/jenkins_home
+    environment:
+      - JENKINS_SLAVE_SSH_PUBKEY=ssh-rsa AAA...
