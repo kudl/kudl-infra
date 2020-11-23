@@ -9,3 +9,4 @@ infra project.
 * [nexus-offline-uplad](https://github.com/kudl/kudl-infra/tree/develop/nexus-offline-upload)
 * [k3s-traefik-ingress](https://github.com/kudl/kudl-infra/tree/master/k3s-traefik-ingress)
 * [elk-apm](https://github.com/kudl/kudl-infra/tree/master/elk-apm)
+* [jenkins-docker-compose(master/worker)](https://github.com/kudl/kudl-infra/tree/master/docker/jenkins)
