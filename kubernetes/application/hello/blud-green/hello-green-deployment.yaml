@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kubernetes-green
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hello-kubernetes
+      color: green
+  template:
+    metadata:
+      labels:
+        app: hello-kubernetes
+        color: green
+    spec:
+      containers:
+        - name: hello-kubernetes
+          image: paulbouwer/hello-kubernetes:1.8
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

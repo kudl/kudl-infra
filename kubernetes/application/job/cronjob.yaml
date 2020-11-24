@@ -1,0 +1,21 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: hello
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: hello
+              image: centos:7
+              command: [ '/bin/bash' ]
+              args:
+                - "-c"
+                - |
+                  echo [`date`] ping!
+                  sleep 5
+                  echo [`date`] pong!
+          restartPolicy: Never
