@@ -16,5 +16,5 @@ infra project.
     * [nginx](https://github.com/kudl/kudl-infra/tree/master/docker/nginx)
     * [redis](https://github.com/kudl/kudl-infra/tree/master/docker/redis)
 * mac-os
-    * [software install](https://github.com/kudl/kudl-infra/blob/master/mac-os/init/README.md)
-    * [inkjet printer auto printing](https://github.com/kudl/kudl-infra/blob/master/mac-os/auto-printing/README.md)
+    * [software install](https://github.com/kudl/kudl-infra/blob/master/mac-os/init)
+    * [inkjet printer auto printing](https://github.com/kudl/kudl-infra/blob/master/mac-os/auto-printing)
