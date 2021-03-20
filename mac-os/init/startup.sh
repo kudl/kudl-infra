@@ -32,6 +32,10 @@ print_line
 # ==========================================================================================
 print_start "homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow
+sudo chown -R $(whoami) /usr/local/var/homebrew
+brew update
 print_end "homebrew"
 
 print_line
@@ -40,6 +44,8 @@ print_line
 # zsh
 # ==========================================================================================
 print_start "zsh"
+sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
 brew install zsh
 chsh -s $(which zsh)
 
